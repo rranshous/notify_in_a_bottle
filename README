@@ -1,0 +1,4 @@
+puts inotifywait events for given dir in to mosquitto
+ (by default) under the topic fsnotify
+
+./dbuild && ./drun $(pwd)
