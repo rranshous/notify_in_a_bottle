@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo "running"
-docker run --link=mosquitto -it -v "$1:$1" rranshous/notifiy_in_a_bottle "$1"
+docker run --link=mosquitto -it -v "$1:$1" rranshous/notify_in_a_bottle "$1"
